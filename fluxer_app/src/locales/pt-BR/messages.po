@@ -49,7 +49,7 @@ msgstr "-link:"
 
 #: src/utils/SearchUtils.tsx:200
 msgid "-mentions:"
-msgstr "-menções:"
+msgstr "-menciona:"
 
 #: src/components/channel/embeds/attachments/TextualAttachmentPreview.tsx:164
 msgid "... ({remainingLineCount} line left)"
@@ -61,7 +61,7 @@ msgstr "... ({remainingLineCount} linhas restantes)"
 
 #: src/components/modals/tabs/appearance_tab/MessagesTab.tsx:94
 msgid "... turn dense mode on. Nice!"
-msgstr "... ativar modo denso. Legal!"
+msgstr "... ligar o modo denso. Legal!"
 
 #: src/components/channel/UserMessage.tsx:201
 #: src/components/channel/UserMessage.tsx:204
@@ -194,7 +194,7 @@ msgstr "{0} selecionado(s)"
 #. placeholder {0}: user.displayName
 #: src/stores/NotificationStore.tsx:506
 msgid "{0} sent you a friend request"
-msgstr "{0} enviou uma solicitação de amizade"
+msgstr "{0} lhe enviou uma solicitação de amizade"
 
 #. placeholder {0}: hasFilters.length
 #: src/components/bottomsheets/ChannelSearchBottomSheet.tsx:239
@@ -356,7 +356,7 @@ msgstr "{actor} fixou uma mensagem{0}."
 
 #: src/components/modals/guild_tabs/GuildAuditLogTab.Utils.tsx:600
 msgid "{actor} pruned inactive members."
-msgstr "{actor} limpou membros inativos."
+msgstr "{actor} removeu membros inativos."
 
 #. placeholder {0}: renderValueInline(pruneDays, guildId, i18n)
 #: src/components/modals/guild_tabs/GuildAuditLogTab.Utils.tsx:591
@@ -366,7 +366,7 @@ msgstr "{actor} removeu membros inativos por {0} dia."
 #. placeholder {0}: renderValueInline(pruneDays, guildId, i18n)
 #: src/components/modals/guild_tabs/GuildAuditLogTab.Utils.tsx:595
 msgid "{actor} pruned members inactive for {0} days."
-msgstr "{actor} limpou membros inativos por {0} dias."
+msgstr "{actor} removeu membros inativos por {0} dias."
 
 #. placeholder {0}: channelNode ? <> in {channelNode}</> : null
 #: src/components/modals/guild_tabs/GuildAuditLogTab.Utils.tsx:549
@@ -380,7 +380,7 @@ msgstr "{actor} desbaniu {targetMember}."
 #. placeholder {0}: channelNode ? <> in {channelNode}</> : null
 #: src/components/modals/guild_tabs/GuildAuditLogTab.Utils.tsx:763
 msgid "{actor} unpinned a message{0}."
-msgstr "{actor} desfixou uma mensagem{0}."
+msgstr "{actor} desafixou uma mensagem{0}."
 
 #: src/components/modals/guild_tabs/GuildAuditLogTab.Utils.tsx:576
 msgid "{actor} updated {targetMember}."
@@ -1574,7 +1574,7 @@ msgstr "Aceitar este convite instala o pacote automaticamente."
 
 #: src/AppConstants.tsx:31
 msgid "Access administrative endpoints"
-msgstr "Access administrative endpoints"
+msgstr "Acessar endpoints administrativos"
 
 #: src/components/modals/utils/ChannelSettingsConstants.tsx:64
 msgid "Access Control"
@@ -1724,7 +1724,7 @@ msgstr "ativo agora"
 #: src/components/modals/tabs/AppearanceTab.tsx:108
 #: src/components/modals/utils/SettingsSectionRegistry.tsx:213
 msgid "Active Now"
-msgstr "Aparência e sensação"
+msgstr "Ativos agora"
 
 #: src/components/modals/utils/SettingsSearchIndex.tsx:230
 msgid "Active Sessions"
@@ -2192,7 +2192,7 @@ msgstr "Todos os DMs + Comunidades"
 
 #: src/components/channel/SearchScopeOptions.tsx:76
 msgid "All DMs Only"
-msgstr "Apenas todos os DMs"
+msgstr "Somente DMs"
 
 #: src/components/pages/PremiumCallbackPage.tsx:70
 msgid "All Done"
@@ -3450,7 +3450,7 @@ msgstr "Códigos de backup regenerados"
 #: src/components/modals/utils/SettingsSearchIndex.tsx:92
 #: src/components/modals/utils/SettingsSectionRegistry.tsx:691
 msgid "badge"
-msgstr "distintivo"
+msgstr "emblema"
 
 #: src/components/modals/utils/SettingsSearchIndex.tsx:91
 msgid "Badge"
@@ -21584,7 +21584,7 @@ msgstr "Esta não é a comunidade que você está procurando."
 
 #: src/components/alerts/TooManyReactionsModal.tsx:30
 msgid "This is one heavy message. Some reactions need to be removed before you can add more."
-msgstr "Esta é uma mensagem pesada. Algumas reações precisam ser removidas antes de você poder adicionar mais."
+msgstr "Esta é uma mensagemzona. Algumas reações precisam ser removidas antes de você poder adicionar mais."
 
 #: src/components/modals/InputMonitoringCTAModal.tsx:83
 msgid "This is required to detect any key or mouse button you choose for Push-to-Talk. You can change this later in <0>System Settings → Privacy & Security → Input Monitoring</0>."
@@ -24490,7 +24490,7 @@ msgstr "Webhooks atualizados"
 
 #: src/components/modals/AddGuildModal.tsx:160
 msgid "Weekend Warriors"
-msgstr "Guerreiros de Fim de Semana"
+msgstr "Guerreiros do Fim de Semana"
 
 #: src/components/modals/guild_tabs/guild_overview_tab/sections/SystemWelcomeSection.tsx:59
 msgid "Welcome and system messages will appear here."
@@ -24683,16 +24683,16 @@ msgstr "quem está digitando"
 
 #: src/components/channel/TypingUsers.tsx:44
 msgid "Whoa, it's a typing apocalypse"
-msgstr "Uau, é um apocalipse de digitação"
+msgstr "Caramba, é um digitocalipse"
 
 #: src/components/alerts/TooManyAttachmentsModal.tsx:32
 #: src/components/alerts/TooManyReactionsModal.tsx:29
 msgid "Whoa, this is heavy"
-msgstr "Uau, isso é pesado"
+msgstr "Caramba, que sinuca de bico"
 
 #: src/components/ErrorFallback.tsx:105
 msgid "Whoa, this is heavy."
-msgstr "Uau, isso é pesado."
+msgstr "Caramba, que sinuca de bico."
 
 #: src/components/modals/IARModal.tsx:228
 msgid "Why are you reporting this?"
