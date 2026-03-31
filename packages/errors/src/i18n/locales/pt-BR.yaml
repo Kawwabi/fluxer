@@ -274,17 +274,17 @@ friends_and_dms.not_friends: Vocês não são amigos.
 friends_and_dms.recipient_ids_cannot_be_empty: Os IDs de destinatário não podem ficar vazios.
 friends_and_dms.recipient_ids_must_be_strings: Os IDs de destinatário precisam ser strings.
 friends_and_dms.recipient_ids_must_be_valid_snowflakes: Os IDs de destinatário precisam ser snowflakes válidos.
-harvest.expired: Harvest expirou.
-harvest.failed: Harvest falhou.
-harvest.not_ready: Harvest ainda não está pronto.
-harvest.on_cooldown: Harvest está em tempo de espera.
-harvest.unknown: Harvest desconhecido.
+harvest.expired: Sua solicitação de exportação de dados expirou. Solicite uma nova exportação.
+harvest.failed: Sua solicitação de exportação de dados falhou. Tente novamente.
+harvest.not_ready: Sua exportação de dados ainda está sendo preparada. Verifique novamente em alguns instantes.
+harvest.on_cooldown: Você só pode solicitar uma exportação de dados a cada 7 dias.
+harvest.unknown: Exportação de dados desconhecida.
 http.bad_gateway: Gateway inválido.
 http.bad_request: Requisição inválida.
 http.conflict: Conflito.
 http.forbidden: Proibido.
 http.gateway_timeout: Tempo limite do gateway excedido.
-http.gone: Desaparecido.
+http.gone: Recurso removido.
 http.internal_server_error: Erro interno do servidor.
 http.method_not_allowed: Método não permitido.
 http.not_found: Não encontrado.

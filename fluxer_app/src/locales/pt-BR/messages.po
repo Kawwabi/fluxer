@@ -15,13 +15,13 @@ msgstr ""
 
 #: src/components/modals/tabs/accessibility_tab/VisualTab.tsx:113
 msgid "Control when message previews are shown in the DM list"
-msgstr "Controle quando as visualizações de mensagens são mostradas na lista de DMs"
+msgstr "Controle quando as prévias das mensagens são mostradas na lista de DMs"
 
 #. js-lingui-explicit-id
 #: src/components/channel/emoji_picker/EmojiPickerCategoryList.tsx:57
 #: src/components/channel/emoji_picker/EmojiPickerCategoryList.tsx:104
 msgid "Frequently Used"
-msgstr "Frequentemente Usado"
+msgstr "Mais usados"
 
 #: src/utils/SearchUtils.tsx:339
 msgid "-ext:"
@@ -57,7 +57,7 @@ msgstr "... ({remainingLineCount} linha restante)"
 
 #: src/components/channel/embeds/attachments/TextualAttachmentPreview.tsx:165
 msgid "... ({remainingLineCount} lines left)"
-msgstr "... ({remainingLineCount} linhas restantes)"
+msgstr "... (mais {remainingLineCount} linhas)"
 
 #: src/components/modals/tabs/appearance_tab/MessagesTab.tsx:94
 msgid "... turn dense mode on. Nice!"
@@ -158,12 +158,12 @@ msgstr "{0} reações"
 #. placeholder {0}: selectedReaction.count
 #: src/components/channel/MessageReactionsSheet.tsx:154
 msgid "{0} reactor"
-msgstr "{0} reator"
+msgstr "{0} pessoa reagiu"
 
 #. placeholder {0}: selectedReaction.count
 #: src/components/channel/MessageReactionsSheet.tsx:154
 msgid "{0} reactors"
-msgstr "{0} reatores"
+msgstr "{0} pessoas reagiram"
 
 #. placeholder {0}: formatNumber(remainingSlots, locale)
 #: src/components/modals/components/PricingCard.tsx:99
@@ -286,7 +286,7 @@ msgstr "{actor} criou o webhook {namedTarget}."
 #. placeholder {1}: channelNode ? <> in {channelNode}</> : null
 #: src/components/modals/guild_tabs/GuildAuditLogTab.Utils.tsx:739
 msgid "{actor} deleted {0} message{1}."
-msgstr "{actor} deletou {0} mensagem{1}."
+msgstr "{actor} excluiu {0} mensagem{1}."
 
 #. placeholder {0}: renderValueInline(bulkCount, guildId, i18n)
 #. placeholder {1}: channelNode ? <> in {channelNode}</> : null
@@ -447,7 +447,7 @@ msgstr "{baseDescription} Este limite é configurado pelo administrador da sua i
 #. placeholder {0}: formatFileSize(premiumMaxAttachmentFileSize)
 #: src/components/alerts/FileSizeTooLargeModal.tsx:78
 msgid "{baseDescription} With Plutonium, your per-file upload limit increases to {0}, plus animated avatars, longer messages, and many other premium features."
-msgstr "{baseDescription} Com o Plutônio, seu limite de upload por arquivo aumenta para {0}, além de avatares animados, mensagens mais longas e muitos outros recursos premium."
+msgstr "{baseDescription} Com o Plutonium, seu limite de upload por arquivo aumenta para {0}, além de avatares animados, mensagens mais longas e muitos outros recursos premium."
 
 #: src/components/pages/OAuthAuthorizePage.tsx:743
 msgid "{clientLabel} wants to connect"
@@ -499,12 +499,12 @@ msgstr "{displayName} (selecionado)"
 #: src/utils/GiftUtils.tsx:52
 #: src/utils/GiftUtils.tsx:63
 msgid "{durationMonths} Month of Plutonium"
-msgstr "{durationMonths} Mês de Plutônio"
+msgstr "{durationMonths} Mês de Plutonium"
 
 #: src/utils/GiftUtils.tsx:52
 #: src/utils/GiftUtils.tsx:63
 msgid "{durationMonths} Months of Plutonium"
-msgstr "{durationMonths} Meses de Plutônio"
+msgstr "{durationMonths} Meses de Plutonium"
 
 #: src/components/uikit/BaseAvatar.tsx:255
 msgid "{effectiveStatusLabel} status"
@@ -704,7 +704,7 @@ msgstr "{onlineCount} Online"
 
 #: src/components/modals/tabs/LimitsConfigTab.tsx:91
 msgid "{overrideCount} active"
-msgstr "{overrideCount} active"
+msgstr "{overrideCount} ativo(s)"
 
 #: src/components/voice/CompactVoiceCallView.tsx:128
 msgid "{participantCount} in call"
@@ -1497,7 +1497,7 @@ msgstr "Um componente reutilizável para estados vazios, erros e mensagens de st
 
 #: src/components/channel/TypingUsers.tsx:42
 msgid "A symphony of clacking keys is underway..."
-msgstr "Uma sinfonia de teclas batendo está em andamento..."
+msgstr "Uma orquestra de dedos está em ação..."
 
 #: src/components/modals/utils/SettingsSectionRegistry.tsx:253
 msgid "a11y"
@@ -1940,7 +1940,7 @@ msgstr "Adicionar redirecionamento"
 
 #: src/components/guild/RoleManagement.tsx:351
 msgid "Add Role"
-msgstr "Adicionar Função"
+msgstr "Adicionar Cargo"
 
 #: src/utils/friends/FriendsListUtils.tsx:169
 msgid "Add some friends to see them here."
@@ -2208,7 +2208,7 @@ msgstr "Todos os amigos"
 
 #: src/components/modals/tabs/component_gallery_tab/InputsTab.tsx:91
 msgid "All inputs are fully interactive - type to test them out!"
-msgstr "Todas as entradas são totalmente interativas - digite para testá-las!"
+msgstr "Todos os campos são totalmente interativos - digite algo para experimentar!"
 
 #: src/components/modals/guild_tabs/GuildAuditLogTab.Renderers.tsx:159
 msgid "All members"
@@ -2262,7 +2262,7 @@ msgstr "Permitir @menção."
 
 #: src/components/modals/guild_tabs/GuildRolesTab.tsx:1060
 msgid "Allow @mentions for this role"
-msgstr "Permitir @menções para esta função"
+msgstr "Permitir @menções para este cargo"
 
 #: src/components/modals/tabs/privacy_safety_tab/CommunicationTab.tsx:243
 msgid "Allow anyone to add you to group chats without asking"
@@ -2532,7 +2532,7 @@ msgstr "Avatares animados não disponíveis"
 
 #: src/components/modals/tabs/my_profile_tab/AvatarUploader.tsx:121
 msgid "Animated avatars require Plutonium"
-msgstr "Avatares animados requerem Plutônio"
+msgstr "Avatares animados requerem Plutonium"
 
 #: src/utils/modals/AnimatedAvifModalUtils.tsx:36
 msgid "Animated AVIF Not Supported"
@@ -2759,22 +2759,22 @@ msgstr "Arquivar"
 #: src/components/modals/UserProfileActionsSheet.tsx:134
 #: src/utils/RelationshipActionUtils.tsx:147
 msgid "Are you sure you want to block {0}? They won't be able to message you or send you friend requests."
-msgstr "Tem certeza de que quer bloquear {0}? Eles não poderão enviar mensagens ou solicitações de amizade para você."
+msgstr "Tem certeza de que deseja bloquear {0}? Eles não poderão enviar mensagens ou solicitações de amizade para você."
 
 #. placeholder {0}: user.displayName
 #: src/components/channel/friends/FriendListItem.tsx:171
 msgid "Are you sure you want to cancel your friend request to {0}?"
-msgstr "Tem certeza de que quer cancelar sua solicitação de amizade para {0}?"
+msgstr "Tem certeza de que deseja cancelar sua solicitação de amizade para {0}?"
 
 #. placeholder {0}: recipient?.username ?? ''
 #: src/components/bottomsheets/ChannelDetailsBottomSheet.tsx:715
 #: src/components/uikit/context_menu/items/DMMenuData.tsx:326
 msgid "Are you sure you want to close your DM with {0}? You can always reopen it later."
-msgstr "Tem certeza de que quer fechar seu DM com {0}? Você pode reabri-lo mais tarde."
+msgstr "Tem certeza de que deseja fechar seu DM com {0}? Você sempre pode reabri-lo mais tarde."
 
 #: src/components/uikit/context_menu/UserContextMenu.tsx:170
 msgid "Are you sure you want to close your DM with {displayName}? You can always reopen it later."
-msgstr "Tem certeza de que quer fechar seu DM com {displayName}? Você pode reabri-lo mais tarde."
+msgstr "Tem certeza de que deseja fechar seu DM com {displayName}? Você sempre pode reabri-lo mais tarde."
 
 #: src/components/modals/tabs/AuthorizedAppsTab.tsx:91
 msgid "Are you sure you want to deauthorize {appName}? This application will no longer have access to your account."
@@ -2783,17 +2783,17 @@ msgstr "Você tem certeza de que deseja desautorizar {appName}? Este aplicativo 
 #. placeholder {0}: emoji.name
 #: src/components/emojis/EmojiListItem.tsx:194
 msgid "Are you sure you want to delete :{0}:? This action cannot be undone."
-msgstr "Tem certeza de que quer excluir :{0}:? Esta ação não pode ser desfeita."
+msgstr "Tem certeza de que deseja excluir :{0}:? Esta ação não pode ser desfeita."
 
 #. placeholder {0}: meme.name
 #: src/components/channel/MobileMemesPicker.tsx:545
 #: src/components/channel/pickers/memes/MemeGridItem.tsx:120
 msgid "Are you sure you want to delete \"{0}\"? This action cannot be undone."
-msgstr "Tem certeza de que quer excluir \"{0}\"? Esta ação não pode ser desfeita."
+msgstr "Tem certeza de que deseja excluir \"{0}\"? Esta ação não pode ser desfeita."
 
 #: src/components/stickers/StickerGridItem.tsx:71
 msgid "Are you sure you want to delete \"{stickerName}\"? This action cannot be undone."
-msgstr "Você tem certeza de que deseja deletar \"{stickerName}\"? Esta ação não pode ser desfeita."
+msgstr "Você tem certeza de que deseja excluir \"{stickerName}\"? Esta ação não pode ser desfeita."
 
 #. placeholder {0}: channel.name ?? channel.id
 #: src/components/uikit/context_menu/items/ChannelMenuData.tsx:254
@@ -2803,31 +2803,31 @@ msgstr "Você tem certeza de que deseja excluir #{0}? Esta ação não pode ser 
 #. placeholder {0}: channel.name ?? 'this channel'
 #: src/components/bottomsheets/ChannelDetailsBottomSheet.tsx:783
 msgid "Are you sure you want to delete #{0}? This cannot be undone."
-msgstr "Tem certeza de que quer excluir #{0}? Isso não pode ser desfeito."
+msgstr "Tem certeza de que deseja excluir #{0}? Isso não pode ser desfeito."
 
 #: src/components/uikit/context_menu/items/ChannelMenuItems.tsx:329
 msgid "Are you sure you want to delete #{channelName}? This cannot be undone."
-msgstr "Você tem certeza de que deseja deletar #{channelName}? Isto não pode ser desfeito."
+msgstr "Você tem certeza de que deseja excluir #{channelName}? Isto não pode ser desfeito."
 
 #. placeholder {0}: application.name
 #: src/components/modals/tabs/applications_tab/ApplicationDetail.tsx:396
 msgid "Are you sure you want to delete <0>{0}</0>?"
-msgstr "Tem certeza de que quer excluir <0>{0}</0>?"
+msgstr "Tem certeza de que deseja excluir <0>{0}</0>?"
 
 #. placeholder {0}: channel.name
 #: src/components/modals/ChannelDeleteModal.tsx:58
 #: src/components/modals/ChannelDeleteModal.tsx:62
 msgid "Are you sure you want to delete <0>{0}</0>? This cannot be undone."
-msgstr "Tem certeza de que quer excluir <0>{0}</0>? Isso não pode ser desfeito."
+msgstr "Tem certeza de que deseja excluir <0>{0}</0>? Isso não pode ser desfeito."
 
 #: src/components/modals/tabs/privacy_safety_tab/DataDeletionTab.tsx:68
 msgid "Are you sure you want to delete all your messages? This action cannot be undone."
-msgstr "Tem certeza de que quer excluir todas as suas mensagens? Esta ação não pode ser desfeita."
+msgstr "Tem certeza de que deseja excluir todas as suas mensagens? Esta ação não pode ser desfeita."
 
 #. placeholder {0}: selectedRole.name
 #: src/components/modals/guild_tabs/GuildRolesTab.tsx:616
 msgid "Are you sure you want to delete the <0>{0}</0> role? Any members with this role will no longer have it."
-msgstr "Tem certeza de que quer excluir a função <0>{0}</0>? Quaisquer membros com esta função não a terão mais."
+msgstr "Tem certeza de que deseja excluir o cargo <0>{0}</0>? Quaisquer membros com este cargo não o terão mais."
 
 #: src/components/uikit/context_menu/items/CategoryMenuData.tsx:177
 #: src/components/uikit/context_menu/items/CategoryMenuItems.tsx:318
@@ -2842,20 +2842,20 @@ msgstr "Você tem certeza que deseja excluir a categoria \"{categoryName}\"? Tod
 #: src/components/uikit/context_menu/items/CategoryMenuData.tsx:173
 #: src/components/uikit/context_menu/items/CategoryMenuItems.tsx:320
 msgid "Are you sure you want to delete the category \"{categoryName}\"? This cannot be undone."
-msgstr "Você tem certeza de que deseja deletar a categoria \"{categoryName}\"? Isto não pode ser desfeito."
+msgstr "Você tem certeza de que deseja excluir a categoria \"{categoryName}\"? Isto não pode ser desfeito."
 
 #. placeholder {0}: passkey.name
 #: src/components/modals/tabs/account_security_tab/SecurityTab.tsx:122
 msgid "Are you sure you want to delete the passkey <0>{0}</0>?"
-msgstr "Tem certeza de que quer excluir a chave de acesso <0>{0}</0>?"
+msgstr "Tem certeza de que deseja excluir a chave de acesso <0>{0}</0>?"
 
 #: src/hooks/useDeleteAttachment.tsx:46
 msgid "Are you sure you want to delete this attachment? This action cannot be undone and will remove the attachment from this message."
-msgstr "Tem certeza de que quer excluir este anexo? Esta ação não pode ser desfeita e removerá o anexo desta mensagem."
+msgstr "Tem certeza de que deseja excluir este anexo? Esta ação não pode ser desfeita e removerá o anexo desta mensagem."
 
 #: src/components/modals/GuildDeleteModal.tsx:59
 msgid "Are you sure you want to delete this community? This action cannot be undone. All channels, messages, and settings will be permanently deleted."
-msgstr "Tem certeza de que quer excluir esta comunidade? Esta ação não pode ser desfeita. Todos os canais, mensagens e configurações serão permanentemente excluídos."
+msgstr "Tem certeza de que deseja excluir esta comunidade? Esta ação não pode ser desfeita. Todos os canais, mensagens e configurações serão permanentemente excluídos."
 
 #: src/components/modals/channel_tabs/ChannelInvitesTab.tsx:118
 msgid "Are you sure you want to delete this invite? This action cannot be undone."
@@ -2863,19 +2863,19 @@ msgstr "Você tem certeza de que deseja excluir este convite? Esta ação não p
 
 #: src/components/modals/tabs/ExpressionPacksTab.tsx:209
 msgid "Are you sure you want to delete this pack? This cannot be undone."
-msgstr "Tem certeza de que quer excluir este pacote? Isso não pode ser desfeito."
+msgstr "Tem certeza de que deseja excluir este pacote? Isso não pode ser desfeito."
 
 #: src/components/modals/tabs/account_security_tab/SecurityTab.tsx:127
 msgid "Are you sure you want to delete this passkey?"
-msgstr "Tem certeza de que quer excluir esta chave de acesso?"
+msgstr "Tem certeza de que deseja excluir esta chave de acesso?"
 
 #: src/components/modals/AccountDeleteModal.tsx:61
 msgid "Are you sure you want to delete your account? This action will schedule your account for permanent deletion."
-msgstr "Tem certeza de que quer excluir sua conta? Esta ação agendará a exclusão permanente da sua conta."
+msgstr "Tem certeza de que deseja excluir sua conta? Esta ação agendará a exclusão permanente da sua conta."
 
 #: src/components/invites/DisableInvitesButton.tsx:54
 msgid "Are you sure you want to disable invites? This will prevent new users from joining through invite links until you re-enable them. Existing members will not be affected."
-msgstr "Tem certeza de que quer desativar os convites? Isso impedirá que novos usuários entrem por links de convite até que você os reative. Os membros existentes não serão afetados."
+msgstr "Tem certeza de que deseja desativar os convites? Isso impedirá que novos usuários entrem por links de convite até que você os reative. Os membros existentes não serão afetados."
 
 #: src/components/modals/tabs/account_security_tab/SecurityTab.tsx:179
 msgid "Are you sure you want to disable SMS two-factor authentication? This will make your account less secure."
@@ -4734,7 +4734,7 @@ msgstr "Escolher Plano de Fundo"
 #: src/components/modals/tabs/AppearanceTab.tsx:53
 #: src/components/modals/utils/SettingsSectionRegistry.tsx:79
 msgid "Choose between dark, coal, or light appearance. You can still add custom CSS overrides below for limitless control."
-msgstr "Escolha entre aparência escura, carvão ou clara. Você ainda pode adicionar substituições CSS personalizadas abaixo para controle ilimitado."
+msgstr "Escolha entre tema escuro, carvão ou claro. Você ainda pode adicionar substituições CSS personalizadas abaixo para controle ilimitado."
 
 #: src/components/modals/guild_tabs/guild_overview_tab/sections/SystemWelcomeSection.tsx:49
 msgid "Choose destination for system and welcome messages"
@@ -4922,7 +4922,7 @@ msgstr "Limpar depois"
 
 #: src/components/modals/tabs/LimitsConfigTab.tsx:94
 msgid "Clear all"
-msgstr "Clear all"
+msgstr "Limpar tudo"
 
 #: src/components/channel/GuildMembersPage.tsx:467
 msgid "Clear All"
@@ -4959,7 +4959,7 @@ msgstr "Limpar apelido"
 
 #: src/components/modals/tabs/LimitsConfigTab.tsx:177
 msgid "Clear override"
-msgstr "Clear override"
+msgstr "Limpar substituição"
 
 #: src/components/modals/guild_tabs/GuildRolesTab.tsx:1080
 msgid "Clear Permissions"
@@ -5010,7 +5010,7 @@ msgstr "Pronomes limpos."
 
 #: src/components/modals/guild_tabs/GuildAuditLogTab.Renderers.tsx:650
 msgid "Cleared the role colour."
-msgstr "Limpa a cor do papel."
+msgstr "Limpa a cor do cargo."
 
 #: src/components/modals/guild_tabs/GuildAuditLogTab.Renderers.tsx:711
 msgid "Cleared the sticker description."
@@ -5256,7 +5256,7 @@ msgstr "Colapsar"
 
 #: src/components/channel/embeds/attachments/TextualAttachmentPreviewFooter.tsx:60
 msgid "Collapse ({lineCount} lines)"
-msgstr "Colapsar ({lineCount} linhas)"
+msgstr "Recolher ({lineCount} linhas)"
 
 #: src/components/channel/embeds/attachments/TextualAttachmentPreviewFooter.tsx:57
 msgid "Collapse (1 line)"
@@ -5505,7 +5505,7 @@ msgstr "Configurações da Comunidade"
 
 #: src/components/guild/RoleManagement.tsx:294
 msgid "Community Settings > Roles & Permissions"
-msgstr "Configurações da Comunidade > Papéis e Permissões"
+msgstr "Configurações da Comunidade > Cargos e Permissões"
 
 #: src/components/layout/GuildLayout.tsx:289
 #: src/components/layout/GuildLayout.tsx:330
@@ -5849,7 +5849,7 @@ msgstr "contraste"
 
 #: src/components/modals/tabs/AccessibilityTab.tsx:264
 msgid "Control animated content throughout the app."
-msgstr "Controle conteúdo animado em todo o aplicativo."
+msgstr "Controle as animações em todo o aplicativo."
 
 #: src/components/modals/tabs/AccessibilityTab.tsx:272
 msgid "Control animations and transitions throughout the app."
@@ -5900,7 +5900,7 @@ msgstr "Controle como sua insígnia Plutonium é exibida para outros"
 #: src/components/modals/tabs/notifications_tab/Inline.tsx:85
 #: src/components/modals/tabs/NotificationsTab.tsx:88
 msgid "Control speech commands and narration for incoming content."
-msgstr "Control speech commands and narration for incoming content."
+msgstr "Controle os comandos de fala e a narração do conteúdo recebido."
 
 #: src/components/modals/tabs/AppearanceTab.tsx:117
 #: src/components/modals/utils/SettingsSectionRegistry.tsx:234
@@ -6689,7 +6689,7 @@ msgstr "Personalize elementos e comportamentos da interface."
 
 #: src/components/modals/tabs/AccessibilityTab.tsx:257
 msgid "Customize keyboard navigation behavior."
-msgstr "Personalize o comportamento de navegação pelo teclado."
+msgstr "Personalize como você navega pelo teclado."
 
 #: src/components/modals/tabs/KeybindsTab.tsx:182
 msgid "Customize keyboard shortcuts for navigation and actions."
@@ -6697,7 +6697,7 @@ msgstr "Personalize atalhos de teclado para navegação e ações."
 
 #: src/components/modals/tabs/ChatSettingsTab.tsx:45
 msgid "Customize media size preferences and buttons."
-msgstr "Personalize preferências de tamanho de mídia e botões."
+msgstr "Personalize o tamanho das mídias e botões."
 
 #: src/components/modals/tabs/ChatSettingsTab.tsx:49
 msgid "Customize message input settings."
@@ -7060,7 +7060,7 @@ msgstr "Por padrão, desativado no celular para preservar a bateria e o uso de d
 #: src/components/modals/utils/SettingsSectionRegistry.tsx:481
 #: src/components/modals/utils/SettingsSectionRegistry.tsx:530
 msgid "delete"
-msgstr "deletar"
+msgstr "excluir"
 
 #: src/actions/MessageActionCreators.tsx:416
 #: src/components/channel/embeds/media/EmbedAudio.tsx:145
@@ -7173,7 +7173,7 @@ msgstr "Excluir Emoji"
 
 #: src/components/modals/guild_tabs/GuildEmojiTab.tsx:163
 msgid "Delete Emoji Failed"
-msgstr "Falha ao deletar emoji"
+msgstr "Falha ao excluir emoji"
 
 #: src/components/modals/channel_tabs/ChannelInvitesTab.tsx:117
 #: src/components/modals/channel_tabs/ChannelInvitesTab.tsx:119
@@ -7255,7 +7255,7 @@ msgstr "Excluir sua conta"
 #. placeholder {0}: renderValueInline(value, guildId, i18n)
 #: src/components/modals/guild_tabs/GuildAuditLogTab.Utils.tsx:241
 msgid "Deleted {0} message."
-msgstr "Deletou {0} mensagem."
+msgstr "Excluiu {0} mensagem."
 
 #. placeholder {0}: renderValueInline(value, guildId, i18n)
 #: src/components/modals/guild_tabs/GuildAuditLogTab.Utils.tsx:243
@@ -9272,11 +9272,11 @@ msgstr "Falha ao excluir canal"
 
 #: src/components/modals/guild_tabs/GuildEmojiTab.tsx:165
 msgid "Failed to delete emoji. Please try again."
-msgstr "Falha ao deletar emoji. Por favor, tente novamente."
+msgstr "Falha ao excluir emoji. Por favor, tente novamente."
 
 #: src/components/alerts/RoleDeleteFailedModal.tsx:33
 msgid "Failed to Delete Role"
-msgstr "Falha ao Deletar Função"
+msgstr "Falha ao Excluir Cargo"
 
 #: src/components/webhooks/WebhookListItem.tsx:126
 msgid "Failed to delete webhook"
@@ -10498,19 +10498,19 @@ msgstr "Seja notificado quando receber mensagens. Talvez você precise permitir 
 #: src/components/uikit/plutonium_upsell/PlutoniumUpsell.tsx:72
 #: src/components/uikit/plutonium_upsell/PlutoniumUpsell.tsx:74
 msgid "Get Plutonium"
-msgstr "Obter Plutonium"
+msgstr "Assine o Plutonium"
 
 #: src/components/modals/components/plutonium/PlutoniumUpsellBanner.tsx:36
 msgid "Get Plutonium for yourself and unlock higher limits and exclusive features."
-msgstr "Obtenha Plutonium para você e desbloqueie limites mais altos e recursos exclusivos."
+msgstr "Assine o Plutonium para você e desbloqueie limites mais altos e recursos exclusivos."
 
 #: src/components/modals/tabs/my_profile_tab/UsernameSection.tsx:82
 msgid "Get Plutonium to customize your tag"
-msgstr "Obtenha Plutonium para personalizar sua tag"
+msgstr "Assine o Plutonium para personalizar sua tag"
 
 #: src/components/modals/FluxerTagChangeModal.tsx:213
 msgid "Get Plutonium to customize your tag or keep it when changing your username"
-msgstr "Obtenha Plutonium para personalizar sua tag ou mantê-la ao mudar seu nome de usuário"
+msgstr "Assine o Plutonium para personalizar sua tag ou mantê-la ao mudar seu nome de usuário"
 
 #: src/components/modals/tabs/VoiceTab.tsx:356
 msgid "Get prompted when new audio devices are connected"
@@ -14924,7 +14924,7 @@ msgstr "Nenhuma inscrição push registrada ainda."
 
 #: src/components/channel/MessageReactionsSheet.tsx:189
 msgid "No reactors for this reaction yet."
-msgstr "Nenhum reator para esta reação ainda."
+msgstr "Nenhuma pessoa reagiu ainda."
 
 #: src/components/modals/BanDetailsModal.tsx:82
 msgid "No reason provided"
@@ -14961,7 +14961,7 @@ msgstr "sem anel"
 
 #: src/components/guild/RoleManagement.tsx:304
 msgid "No Roles Available"
-msgstr "Nenhum papel disponível"
+msgstr "Nenhum Cargo Disponível"
 
 #: src/components/guild/RoleManagement.tsx:170
 #: src/components/guild/RoleManagement.tsx:243
@@ -15826,12 +15826,12 @@ msgstr "Sobreposições e menus"
 
 #: src/components/modals/tabs/LimitsConfigTab.tsx:165
 msgid "Override"
-msgstr "Override"
+msgstr "Substituir"
 
 #. placeholder {0}: metadata.label
 #: src/components/modals/tabs/LimitsConfigTab.tsx:166
 msgid "Override {0}"
-msgstr "Override {0}"
+msgstr "Substituir {0}"
 
 #: src/components/modals/tabs/developer_options_tab/AccountPremiumTab.tsx:61
 msgid "Override email verification status"
@@ -15839,7 +15839,7 @@ msgstr "Substituir status de verificação de e-mail"
 
 #: src/components/modals/tabs/LimitsConfigTab.tsx:86
 msgid "Override instance limits locally for testing. Changes only affect your client."
-msgstr "Override instance limits locally for testing. Changes only affect your client."
+msgstr "Substitua os limites da instância localmente para testes. As alterações afetam apenas o seu cliente."
 
 #: src/components/modals/tabs/developer_options_tab/AccountPremiumTab.tsx:111
 msgid "Override Premium Type"
@@ -17585,7 +17585,7 @@ msgstr "Removido das mídias salvas"
 
 #: src/components/modals/guild_tabs/GuildAuditLogTab.Renderers.tsx:618
 msgid "Removed role {oldLabel}."
-msgstr "Removido o papel {oldLabel}."
+msgstr "Cargo {oldLabel} removido."
 
 #: src/components/modals/guild_tabs/GuildAuditLogTab.Renderers.tsx:528
 msgid "Removed roles."
@@ -19220,7 +19220,7 @@ msgstr "Definir motivo para {0}."
 
 #: src/components/modals/guild_tabs/GuildAuditLogTab.Renderers.tsx:652
 msgid "Set role colour to <0>{hex}</0> <1/>."
-msgstr "Defina a cor do papel para <0>{hex}</0> <1/>."
+msgstr "Defina a cor do cargo para <0>{hex}</0> <1/>."
 
 #. placeholder {0}: renderInline(seconds, i18n)
 #: src/components/modals/guild_tabs/GuildAuditLogTab.Renderers.tsx:443
@@ -21257,7 +21257,7 @@ msgstr "Não há canais disponíveis para criar um convite."
 #. placeholder {0}: /* * Copyright (C) 2026 Fluxer Contributors * * This file is part of Fluxer. * * Fluxer is free software: you can redistribute it and/or modify * it under the terms of the GNU Affero General Public License as published by * the Free Software Foundation, either version 3 of the License, or * (at your option) any later version. * * Fluxer is distributed in the hope that it will be useful, * but WITHOUT ANY WARRANTY; without even the implied warranty of * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the * GNU Affero General Public License for more details. * * You should have received a copy of the GNU Affero General Public License * along with Fluxer. If not, see <https://www.gnu.org/licenses/>. */ import * as ContextMenuActionCreators from '@app/actions/ContextMenuActionCreators'; import * as GuildMemberActionCreators from '@app/actions/GuildMemberActionCreators'; import * as ModalActionCreators from '@app/actions/ModalActionCreators'; import {modal} from '@app/actions/ModalActionCreators'; import styles from '@app/components/guild/RoleManagement.module.css'; import {ConfirmModal} from '@app/components/modals/ConfirmModal'; import {GuildSettingsModal} from '@app/components/modals/GuildSettingsModal'; import profileStyles from '@app/components/popouts/UserProfilePopout.module.css'; import {CheckboxItem} from '@app/components/uikit/context_menu/ContextMenu'; import itemStyles from '@app/components/uikit/context_menu/items/MenuItems.module.css'; import {MenuGroup} from '@app/components/uikit/context_menu/MenuGroup'; import {MenuItem} from '@app/components/uikit/context_menu/MenuItem'; import FocusRing from '@app/components/uikit/focus_ring/FocusRing'; import {MenuBottomSheet, type MenuGroupType} from '@app/components/uikit/menu_bottom_sheet/MenuBottomSheet'; import {Tooltip} from '@app/components/uikit/tooltip/Tooltip'; import {useRoleHierarchy} from '@app/hooks/useRoleHierarchy'; import type {GuildRoleRecord} from '@app/records/GuildRoleRecord'; import GuildMemberStore from '@app/stores/GuildMemberStore'; import GuildSettingsModalStore from '@app/stores/GuildSettingsModalStore'; import GuildStore from '@app/stores/GuildStore'; import MobileLayoutStore from '@app/stores/MobileLayoutStore'; import * as ColorUtils from '@app/utils/ColorUtils'; import {Trans, useLingui} from '@lingui/react/macro'; import {PlusIcon, XIcon} from '@phosphor-icons/react'; import {clsx} from 'clsx'; import {observer} from 'mobx-react-lite'; import type React from 'react'; import {useCallback, useMemo, useState} from 'react'; const RoleBadge: React.FC<{ role: GuildRoleRecord; canRemove: boolean; guildId: string; userId: string; }> = observer(function RoleBadge({role, canRemove, guildId, userId}) { const {t} = useLingui(); const roleColor = ColorUtils.int2rgb(role.color); const iconColor = ColorUtils.getBestContrastColor(role.color); const handleRemoveRole = () => { GuildMemberActionCreators.removeRole(guildId, userId, role.id); }; const roleIndicator = <span className={styles.roleIndicator} style={{backgroundColor: roleColor}} />; return ( <div key={role.id} className={clsx(styles.roleBadge, profileStyles.role)}> {canRemove ? ( <Tooltip text={t`Remove role`} position="top"> <FocusRing offset={-2}> <button type="button" className={styles.roleRemoveButton} onClick={handleRemoveRole}> <XIcon weight="bold" className={clsx(styles.roleRemoveIconContainer, profileStyles.roleRemoveIcon)} style={{color: iconColor}} /> {roleIndicator} </button> </FocusRing> </Tooltip> ) : ( <div className={styles.roleRemoveButtonContainer}>{roleIndicator}</div> )} <div aria-hidden={true} className={styles.roleName}> {role.name} </div> </div> ); }); export const RoleList: React.FC<{ guildId: string; userId: string; roles: Array<GuildRoleRecord>; canManage: boolean; }> = observer(function RoleList({guildId, userId, roles, canManage}) { const {canManageRole} = useRoleHierarchy(GuildStore.getGuild(guildId)); if (roles.length === 0 && !canManage) { return null; } return ( <div className={styles.roleListContainer}> {roles.map((role) => { const canRemoveRole = canManage && canManageRole({ id: role.id, position: role.position, permissions: role.permissions, }); return <RoleBadge key={role.id} role={role} canRemove={canRemoveRole} guildId={guildId} userId={userId} />; })} </div> ); }); interface ManageRolesMenuContentProps { guildId: string; userId: string; onClose: () => void; } const ManageRolesMenuContent: React.FC<ManageRolesMenuContentProps> = observer(function ManageRolesMenuContent({ guildId, userId, onClose, }) { const guild = GuildStore.getGuild(guildId); const currentMember = GuildMemberStore.getMember(guildId, userId); const {canManageRole} = useRoleHierarchy(guild); const handleOpenGuildSettings = useCallback(() => { onClose(); if (GuildSettingsModalStore.navigateToTab(guildId, 'roles')) { return; } ModalActionCreators.push(modal(() => <GuildSettingsModal guildId={guildId} initialTab="roles" />)); }, [guildId, onClose]); const allRoles = useMemo(() => { if (!guild) return []; return Object.values(guild.roles) .filter((role) => !role.isEveryone) .sort((a, b) => b.position - a.position) .map((role) => ({ role, canManage: canManageRole({id: role.id, position: role.position, permissions: role.permissions}), })); }, [guild, canManageRole]); const handleToggleRole = useCallback( async (roleId: string, hasRole: boolean, canManage: boolean) => { if (!canManage) return; if (hasRole) { await GuildMemberActionCreators.removeRole(guildId, userId, roleId); } else { await GuildMemberActionCreators.addRole(guildId, userId, roleId); } }, [guildId, userId], ); if (allRoles.length === 0) { return ( <MenuGroup> <MenuItem onClick={handleOpenGuildSettings}> <Trans>No roles yet, add roles in Community Settings</Trans> </MenuItem> </MenuGroup> ); } return ( <MenuGroup> {allRoles.map(({role, canManage}) => { const hasRole = currentMember?.roles.has(role.id) ?? false; return ( <CheckboxItem key={role.id} checked={hasRole} disabled={!canManage} onCheckedChange={() => handleToggleRole(role.id, hasRole, canManage)} closeOnChange={false} > <div className={itemStyles.roleContainer}> <div className={itemStyles.roleIcon} style={{backgroundColor: ColorUtils.int2rgb(role.color)}} /> <span className={clsx(itemStyles.roleName, !canManage && itemStyles.roleDisabled)}>{role.name}</span> </div> </CheckboxItem> ); })} </MenuGroup> ); }); interface ManageRolesBottomSheetProps { isOpen: boolean; onClose: () => void; guildId: string; userId: string; } export const ManageRolesBottomSheet: React.FC<ManageRolesBottomSheetProps> = observer(function ManageRolesBottomSheet({ isOpen, onClose, guildId, userId, }) { const {t} = useLingui(); const guild = GuildStore.getGuild(guildId); const currentMember = GuildMemberStore.getMember(guildId, userId); const {canManageRole} = useRoleHierarchy(guild); const handleOpenGuildSettings = useCallback(() => { onClose(); if (GuildSettingsModalStore.navigateToTab(guildId, 'roles')) { return; } ModalActionCreators.push(modal(() => <GuildSettingsModal guildId={guildId} initialTab="roles" />)); }, [guildId, onClose]); const allRoles = useMemo(() => { if (!guild) return []; return Object.values(guild.roles) .filter((role) => !role.isEveryone) .sort((a, b) => b.position - a.position) .map((role) => ({ role, canManage: canManageRole({id: role.id, position: role.position, permissions: role.permissions}), })); }, [guild, canManageRole]); const menuGroups: Array<MenuGroupType> = useMemo(() => { if (allRoles.length === 0) { return [ { items: [ { icon: <PlusIcon weight="bold" className={styles.iconSize} />, label: t`No roles yet, add roles in Community Settings`, onClick: handleOpenGuildSettings, }, ], }, ]; } return [ { items: allRoles.map(({role, canManage}) => { const hasRole = currentMember?.roles.has(role.id) ?? false; return { label: role.name, checked: hasRole, disabled: !canManage, onChange: async () => { if (!canManage) return; if (hasRole) { await GuildMemberActionCreators.removeRole(guildId, userId, role.id); } else { await GuildMemberActionCreators.addRole(guildId, userId, role.id); } }, icon: ( <div className={styles.roleColorIndicator} style={{backgroundColor: ColorUtils.int2rgb(role.color)}} /> ), }; }), }, ]; }, [allRoles, currentMember, guildId, userId, handleOpenGuildSettings]); return <MenuBottomSheet isOpen={isOpen} onClose={onClose} title={t`Manage Roles`} groups={menuGroups} />; }); function openNoRolesModal(guildId: string) { function NoRolesModalDescription() { const {t} = useLingui(); const handleOpenRolesSettings = useCallback(() => { ModalActionCreators.pop(); if (GuildSettingsModalStore.navigateToTab(guildId, 'roles')) { return; } ModalActionCreators.push(modal(() => <GuildSettingsModal guildId={guildId} initialTab="roles" />)); }, []); return ( <Trans> There are no roles to assign in this community at this time, but you can create a new role in{' '} <button type="button" className={styles.noRolesLink} onClick={handleOpenRolesSettings}> {t`Community Settings > Roles & Permissions`} </button> . </Trans> ); } ModalActionCreators.push( modal(() => ( <ConfirmModal title={<Trans>No Roles Available</Trans>} description={<NoRolesModalDescription />} primaryText={<Trans>OK</Trans>} primaryVariant="primary" secondaryText={false} onPrimary={() => {}} /> )), ); } export const AddRoleButton: React.FC<{ guildId: string; userId: string; }> = observer(function AddRoleButton({guildId, userId}) { const {t} = useLingui(); const guild = GuildStore.getGuild(guildId); const member = GuildMemberStore.getMember(guildId, userId); const isMobile = MobileLayoutStore.enabled; const [showBottomSheet, setShowBottomSheet] = useState(false); const hasRoles = useMemo(() => { if (!guild) return false; return Object.values(guild.roles).some((r) => !r.isEveryone); }, [guild]); const handleClick = useCallback( (event: React.MouseEvent<HTMLButtonElement>) => { if (!hasRoles) { openNoRolesModal(guildId); return; } if (isMobile) { setShowBottomSheet(true); } else { ContextMenuActionCreators.openFromEvent(event, ({onClose}) => ( <ManageRolesMenuContent guildId={guildId} userId={userId} onClose={onClose} /> )); } }, [guildId, userId, isMobile, hasRoles], ); if (!guild || !member) return null; return ( <> <Tooltip text={t`Add Role`}> <FocusRing offset={-2}> <button type="button" className={clsx(styles.addRoleButton, styles.addRoleButtonIcon)} onClick={handleClick}> <PlusIcon weight="bold" className={styles.iconSize} /> </button> </FocusRing> </Tooltip> {isMobile && ( <ManageRolesBottomSheet isOpen={showBottomSheet} onClose={() => setShowBottomSheet(false)} guildId={guildId} userId={userId} /> )} </> ); }); 
 #: src/components/guild/RoleManagement.tsx:291
 msgid "There are no roles to assign in this community at this time, but you can create a new role in <0>{0}</0>."
-msgstr "Não há papéis para atribuir nesta comunidade no momento, mas você pode criar um novo papel em <0>{0}</0>."
+msgstr "Não há cargos para atribuir nesta comunidade no momento, mas você pode criar um novo cargo em <0>{0}</0>."
 
 #: src/components/modals/channel_tabs/ChannelWebhooksTab.tsx:194
 msgid "There are no webhooks configured for this channel. Create a webhook to allow external applications to post messages."
@@ -21687,7 +21687,7 @@ msgstr "Este tema pode ter sido removido ou o link é inválido."
 
 #: src/components/popouts/UserProfileShared.tsx:264
 msgid "This user has no roles in this community."
-msgstr "Este usuário não tem papéis nesta comunidade."
+msgstr "Este usuário não tem cargos nesta comunidade."
 
 #: src/components/alerts/CallNotRingableModal.tsx:30
 msgid "This user is not available to receive calls right now. They may have calls disabled."
@@ -22676,7 +22676,7 @@ msgstr "Convite Desconhecido"
 #: src/utils/TtsTextFormatter.tsx:61
 #: src/utils/TtsTextFormatter.tsx:65
 msgid "unknown role"
-msgstr "papel desconhecido"
+msgstr "cargo desconhecido"
 
 #: src/lib/markdown/renderers/MentionRenderer.tsx:143
 msgid "Unknown Role"
@@ -22730,12 +22730,12 @@ msgstr "Figurinhas ilimitadas"
 #: src/components/channel/EmojiPicker.tsx:176
 #: src/components/channel/MobileEmojiPicker.tsx:179
 msgid "Unlock {emojiLabel} from {communityLabel} with Plutonium."
-msgstr "Desbloqueie {emojiLabel} de {communityLabel} com Plutônio."
+msgstr "Desbloqueie {emojiLabel} de {communityLabel} com Plutonium."
 
 #: src/components/channel/MobileStickersPicker.tsx:144
 #: src/components/channel/StickersPicker.tsx:143
 msgid "Unlock {stickerLabel} from {communityLabel} with Plutonium."
-msgstr "Desbloqueie {stickerLabel} de {communityLabel} com Plutônio."
+msgstr "Desbloqueie {stickerLabel} de {communityLabel} com Plutonium."
 
 #: src/components/channel/PremiumUpsellBanner.tsx:82
 msgid "Unlock all custom emojis and stickers across all communities with Plutonium"
@@ -23846,7 +23846,7 @@ msgstr "Veja todos os convites para esta comunidade. Para criar um novo convite,
 
 #: src/components/channel/GuildMembersPage.tsx:407
 msgid "View All Roles"
-msgstr "Ver Todos os Papéis"
+msgstr "Ver Todos os Cargos"
 
 #: src/components/popouts/UnreadChannelsContent.tsx:309
 msgid "View all unread"
@@ -24015,7 +24015,7 @@ msgstr "Visionário (Vitalício #42)"
 
 #: src/utils/GiftUtils.tsx:48
 msgid "Visionary (Lifetime Plutonium)"
-msgstr "Visionário (Plutônio Vitalício)"
+msgstr "Visionário (Plutonium Vitalício)"
 
 #: src/components/modals/tabs/developer_options_tab/NagbarControls.tsx:172
 msgid "Visionary 2FA Nagbar"
@@ -24899,7 +24899,7 @@ msgstr "Você pode resgatar códigos de presente adicionais para <0>estender</0>
 
 #: src/components/modals/guild_tabs/guild_overview_tab/sections/MessageHistoryThresholdContent.tsx:52
 msgid "You can remove the <0>Read Message History</0> permission from the <1>@everyone</1> role in the <2>Roles & Permissions</2> tab and grant it to one or more trusted roles instead."
-msgstr "Você pode remover a permissão <0>Ver Histórico de Mensagens</0> do papel <1>@everyone</1> na aba <2>Papéis & Permissões</2> e concedê-la a um ou mais papéis de confiança."
+msgstr "Você pode remover a permissão <0>Ver Histórico de Mensagens</0> do cargo <1>@everyone</1> na aba <2>Cargos & Permissões</2> e concedê-la a um ou mais cargos de confiança."
 
 #: src/components/modals/tabs/privacy_safety_tab/DataExportTab.tsx:120
 msgid "You can request a data export once every 7 days. You'll receive an email with a download link valid for 7 days."
